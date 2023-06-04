@@ -25,7 +25,21 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
-
+        fingerprints: false,
+        inject: true,
+        name: 'Jate',
+        short_name: 'Jate',
+        description: 'Jate',
+        background_color: '#ffffff',
+        start_url: './',
+        publicPath: './',
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
+          },
+        ]
       }),
 
       new InjectManifest({
