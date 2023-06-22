@@ -7,7 +7,14 @@ License: MIT
 
 This app is a backend PWA app that shows that you can install and use without wifi. This app is a text editor.
 
+
 ## Table of Contents
+
+- [User Story](#user-story)
+- [Installation](#installation)
+- [DeploymentURL](#deploymentURL)
+- [Usage](#usage)
+- [Credits](#credits)
 
 
 ## Installation
